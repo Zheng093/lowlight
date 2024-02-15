@@ -23,25 +23,3 @@ function HomepageHeader() {
     </header>
   );
 }
-
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`首页`}
-      description="Lowlight - A Faint Light">
-        <div>
-        <div className={styles.HomepageTips}>
-        微光 Lowlight 将于 2022 年 12 月 1 日终止运营。
-          <Link to="/blog/2022/11/06/terminal-of-service">
-          查看详情
-          </Link>
-          </div>
-        </div>
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
-}
