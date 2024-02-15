@@ -159,10 +159,10 @@ const config = {
             },
         },
         navbar: {
-            title: '微光 Lowlight',
+            title: 'Puremoon',
             logo: {
-                alt: 'Lowlight Logo',
-                src: 'img/lowlight_maid.webp',
+                alt: 'Puremoon Logo',
+                src: 'https://phiraios.dmocken.online/puremoon.jpg',
             },
             items: [
                 // left
